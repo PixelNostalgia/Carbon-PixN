@@ -9,7 +9,7 @@
    id="svg1"
    inkscape:version="1.4 (86a8ad7, 2024-10-11)"
    xml:space="preserve"
-   sodipodi:docname="microvsn.svg"
+   sodipodi:docname="microvsn-w.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +47,7 @@
        y="-0.00051137147">microvision</tspan></text><g
      id="g48"
      inkscape:label="microvisionOutline"
-     style="display:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-opacity:1"
+     style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-opacity:1"
      transform="translate(0.27134199,-6.1639232)"><path
        id="path69"
        style="-inkscape-font-specification:'Handel Gothic';fill:#ffffff;stroke:none;stroke-linecap:square;stroke-miterlimit:8;paint-order:stroke fill markers"
@@ -95,7 +95,7 @@
        inkscape:label="n" /></g><g
      id="g37"
      inkscape:label="microvisionShadow"
-     style="display:inline;fill:#000000;fill-opacity:1"
+     style="display:none;fill:#000000;fill-opacity:1"
      transform="translate(0.700342,-5.7349232)"><path
        d="M 0.30747477,7.0300618 V 27.072766 H 5.7278158 V 11.310421 H 11.5533 v 15.762345 h 5.420341 V 11.310421 h 2.872176 c 1.267498,0 2.117192,0.273945 2.548682,0.822689 0.458456,0.521306 0.687296,1.536764 0.687296,3.045808 v 11.893848 h 5.420858 V 14.314372 c 0,-2.277285 -0.458712,-3.923542 -1.375627,-4.9387169 C 26.210113,8.3330427 25.293204,7.6883408 24.37629,7.4414062 23.459376,7.1670347 22.070932,7.0300618 20.210136,7.0300618 Z"
        style="font-size:40.8024px;line-height:0;font-family:'Handel Gothic';-inkscape-font-specification:'Handel Gothic';letter-spacing:-1.32292px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:1.1566;stroke-linecap:square;stroke-miterlimit:8;paint-order:stroke fill markers"

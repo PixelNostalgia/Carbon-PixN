@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    version="1.2"
-   width="574.785"
-   height="83.5"
-   viewBox="-2.153 -3.275 574.785 83.5"
+   width="574.78497"
+   height="163.849"
+   viewBox="-2.153 -3.275 574.785 163.849"
    xml:space="preserve"
    id="svg5"
-   sodipodi:docname="segacd.svg"
+   sodipodi:docname="segacdh.svg"
    inkscape:version="1.4 (86a8ad7, 2024-10-11)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -78,7 +78,7 @@
    id="g23"
    inkscape:label="Hacks"
    transform="translate(56.8925,-15.469116)"
-   style="display:none"><path
+   style="display:inline"><path
      d="m -2.153,92.543116 h 461 v 83.499994 h -461 z"
      id="path21"
      style="display:inline"
