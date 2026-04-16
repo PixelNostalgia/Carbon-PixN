@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
-Theme: carbon-pixn
+Theme: es-theme-carbon
 author: Fabrice CARUSO
 license: creative commons CC-BY-NC-SA
 originally based on: "Carbon" by Eric Hettervik (Rookervik)
@@ -36,7 +36,7 @@ languages and missing systems (batocera v36): by maioni
     <orientationSubsetName>Orientation</orientationSubsetName>
     <videosSubsetName>Videos</videosSubsetName>
     <logosSubsetName>Logos</logosSubsetName>
-    <systemViewExInfos>Extended system informations</systemViewExInfos>
+    <systemViewInfo>System information</systemViewInfo>
     <animationsSubsetName>Transition Animations</animationsSubsetName>
     <hideselectionSubsetName>Hide selection</hideselectionSubsetName>
     <systemBackgroundName>System background</systemBackgroundName>
@@ -54,10 +54,13 @@ languages and missing systems (batocera v36): by maioni
     <subset.colorset>Colorset</subset.colorset>
     <subset.shader>Shader</subset.shader>
     <subset.blurfx>Blur Effects</subset.blurfx>
+    <subset.multipassblur>Kawase</subset.multipassblur>
     <glowSubsetName>Glow selection</glowSubsetName>
     <helpbuttons>Button location</helpbuttons>
     <xboxbuttons>Xbox buttons</xboxbuttons>
     <psxbuttons>Playstation buttons</psxbuttons>
+    <buttons6>6 Buttons</buttons6>
+	<buttons8>8 Buttons</buttons8>
     <marquee>marquee</marquee>
     <image>image</image>
     <text>text</text>
@@ -82,7 +85,10 @@ languages and missing systems (batocera v36): by maioni
   <include lang="pt">./lang/pt.xml</include>
   <include lang="pt_BR">./lang/pt_BR.xml</include>
   <include lang="br">./lang/br.xml</include>
+  <include lang="ro_RO">./lang/ro_RO.xml</include>
   <include lang="ru">./lang/ru.xml</include>
+  <include lang="sv">./lang/sv.xml</include>
+  <include lang="tr">./lang/tr.xml</include>
   <include lang="uk">./lang/ru.xml</include>
   <include lang="zh">./lang/zh.xml</include> 
 
@@ -103,10 +109,11 @@ languages and missing systems (batocera v36): by maioni
   <include>./views/screen.xml</include>
   <include>./views/system.xml</include>
   
-  <!-- Subset option for System extended informations -->
-  <subset name="subsetSystemInfoEx" displayName="${systemViewExInfos}" tinyScreen="false">
-    <include name="yes" displayName="${yes}">./subsets/extendedinfo.xml</include>
-    <include name="no" displayName="${no}"/>
+  <!-- Subset option for System information -->
+  <subset name="subsetSystemInfo" displayName="${systemViewInfo}">
+    <include name="extended" displayName="${extended}" tinyScreen="false">./subsets/extendedinfo.xml</include>
+    <include name="standard" displayName="${standard}"/>
+    <include name="none" displayName="${none}">./subsets/noinfo.xml</include>
   </subset>
   <!-- Subset options for screen -->
   <subset name="systemview" displayName="${systemViewName}">
@@ -159,16 +166,20 @@ languages and missing systems (batocera v36): by maioni
   <!-- Subset option for blur effects -->
   <subset name="blurfx" displayName="${subset.blurfx}" ifArch="windows,x86_64" tinyScreen="false">
     <include name="yes" displayName="${yes}">./subsets/blurfx.xml</include>
+    <include name="multipass" displayName="${subset.multipassblur}">./subsets/blurfx.xml</include>
     <include name="no" displayName="${no}"/>
   </subset>
 
   <!-- Subset options for help -->
   <subset name="helpsystem" displayName="${helpSubsetName}">
+  	
     <include name="buttons" displayName="${helpbuttons}">./subsets/help/buttons.xml</include>
     <include name="xboxbuttons" displayName="${xboxbuttons}">./subsets/help/xboxbuttons.xml</include>
     <include name="psxbuttons" displayName="${psxbuttons}">./subsets/help/psxbuttons.xml</include>
     <include name="colored" displayName="${colored}">./subsets/help/colorhelp.xml</include>
     <include name="standard" displayName="${gray}">./subsets/help/default.xml</include>
+    <include name="6buttons" displayName="${buttons6}">./subsets/help/6buttons.xml</include>
+    <include name="8buttons" displayName="${buttons8}">./subsets/help/8buttons.xml</include>    
   </subset>
   <!-- Subset options for screen -->
   <subset name="shader" displayName="${subset.shader}">

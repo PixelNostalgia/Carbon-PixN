@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <!-- Romanian -->
+  <variables lang="ro_RO">
+    <dateFormat>%d.%m.%Y</dateFormat>
+    <!-- Common views / Gamelist view -->
+    <gameCarouselViewName>Carusel</gameCarouselViewName>
+    <basicGridName>Cutii</basicGridName>
+    <carouselViewName>Carusel de cutii</carouselViewName>
+    <tilesViewName>Miniaturi</tilesViewName>
+    <iconsViewName>Pictograme</iconsViewName>
+    <contentViewName>Conținut</contentViewName>
+    <!-- Colorsets  -->
+    <subset.colorset>Tema de culoare</subset.colorset>
+    <blue>Albastru</blue>
+    <red>Roșu</red>
+    <green>Verde</green>
+    <cyan>Cyan</cyan>
+    <yellow>Galben</yellow>
+    <violet>Violet</violet>
+    <orange>Portocaliu</orange>
+    <gray>Gri</gray>
+    <!-- Region -->
+    <subset.region>Regiunea</subset.region>
+    <!-- Subset option for System extended informations -->
+    <systemViewExInfos>Informații extinse sistem</systemViewExInfos>
+    <yes>Da</yes>
+    <no>Nu</no>
+    <!-- Subset options for screen / System view -->
+    <systemViewName>Vizualizare sisteme</systemViewName>
+    <systemview.darkened>Întunecat</systemview.darkened>
+    <systemview.gridName>Grilă imagini</systemview.gridName>
+    <systemview.horizontal>Orizontal</systemview.horizontal>
+    <systemview.legacy>Învechit</systemview.legacy>
+    <systemview.transparent>Transparent</systemview.transparent>
+    <systemview.simple>Simplu</systemview.simple>
+    <systemview.vertical>Vertical</systemview.vertical>
+    <systemview.wheel>Carusel</systemview.wheel>
+    <systemview.textlist>Listă text</systemview.textlist>
+    <!-- Subset option for System view background -->
+    <systemBackgroundName>Fundal</systemBackgroundName>
+    <!-- change default for small screens -->
+    <systembackground.consoles>Console</systembackground.consoles>
+    <systembackground.miniconsoles>Mini console</systembackground.miniconsoles>
+    <systembackground.carboncontrollers>Controale Carbon</systembackground.carboncontrollers>
+    <systembackground.carbonlegacy>Învechit</systembackground.carbonlegacy>
+    <systembackground.simple>Simplu</systembackground.simple>
+    <systembackground.randomvideo>Videoclip aleatoriu</systembackground.randomvideo>
+    <systembackground.randomfanart>Fanart aleatoriu</systembackground.randomfanart>
+    <systembackground.randomimage>Imagine aleatorie</systembackground.randomimage>
+    <systembackground.randombox>Cutie joc aleatorie</systembackground.randombox>
+    <systembackground.minirandomimage>Mini imagine joc aleatorie</systembackground.minirandomimage>
+    <systembackground.minirandombox>Mini cutie joc aleatorie</systembackground.minirandombox>
+    <systembackground.minirandomvideo>Mini videoclip aleatoriu</systembackground.minirandomvideo>
+    <animatedBackground>Animații de fundal</animatedBackground>
+    <animatedCovers>Cutii aleatorii</animatedCovers>
+    <!-- Fix for controller image size -->
+    <systemview.simple>simplu</systemview.simple>
+    <systemview.vertical>vertical</systemview.vertical>
+    <systemview.wheel>carusel</systemview.wheel>
+    <!-- Fix for Legacy option in systemview subset : systemInfo colors have to be restored after applying systembackground subset -->
+    <systemview.legacy>învechit</systemview.legacy>
+    <!-- Subset options for blur effects -->
+    <subset.blurfx>Efecte blur</subset.blurfx>
+    <!-- Subset options for help -->
+    <helpSubsetName>Pictograme de ajutor</helpSubsetName>
+    <helpbuttons>Poziția butoanelor</helpbuttons>
+    <xboxbuttons>Butoane Xbox</xboxbuttons>
+    <psxbuttons>Butoane PlayStation</psxbuttons>
+    <colored>Colorat</colored>
+    <!-- Subset options for screen / Filters -->
+    <subset.shader>Filtre</subset.shader>
+    <none>Fără</none>
+    <scanlines>Linii scanare</scanlines>
+    <crt>TV cu tub</crt>
+    <!-- add game info bar -->
+    <gameBar>Bară de informații joc</gameBar>
+    <!-- Layout for small screens -->
+    <optimizesmallscreensSubsetName>Optimizează pentru ecrane mici</optimizesmallscreensSubsetName>
+    <!-- Subset options for grid views -->
+    <videoboxesSubsetName>Afișează videoclip în mod fereastră</videoboxesSubsetName>
+    <zoomboxesSubsetName>Ferestre mărire</zoomboxesSubsetName>
+    <!-- Subset options for Orientantion view -->
+    <orientationSubsetName>Orientare</orientationSubsetName>
+    <vertical>Verticală</vertical>
+    <horizontal>Orizontală</horizontal>
+    <hideselectionSubsetName>Ascunde selecția</hideselectionSubsetName>
+    <previewBarSubsetName>Panou previzualizare</previewBarSubsetName>
+    <animatedInfobar>Animații bară de informații</animatedInfobar>
+    <!-- Subset options for Tiles view -->
+    <glowSubsetName>Selecție cu aureolă</glowSubsetName>
+    <roundBorderSubsetName>Muchii rotunjite</roundBorderSubsetName>
+    <blinkBorderSubsetName>Muchii clipitoare</blinkBorderSubsetName>
+    <videosSubsetName>Videoclipuri</videosSubsetName>
+    <logosSubsetNamegamecarouseltype>Miniaturi</logosSubsetNamegamecarouseltype>
+    <!-- Subset options for Carousel content type -->
+    <gamecarouseltype>Sursa imaginii pentru carusel</gamecarouseltype>
+    <marquee>Marquee</marquee>
+    <image>Imagine</image>
+    <text>Text</text>
+    <thumbnail>Miniatură</thumbnail>
+     <!-- Subset options for System view content background -->
+    <contentBackground>Fundal conținut</contentBackground>
+    <fanart>Fanart</fanart>
+    <animationsSubsetName>Animații tranziție</animationsSubsetName>
+  </variables>
+</theme>
